@@ -1,10 +1,9 @@
 <div class="card">
   <div>
     <div class="information">
-      <p class="name">Bulbasaur</p>
+      <p class="name">{{ name }}</p>
       <div class="element">
-        <p>Grass</p>
-        <p>Grass</p>
+        <span *ngFor="let atribute of atributes">{{ atribute }}</span>
       </div>
     </div>
   </div>

@@ -16,6 +16,25 @@
 
     .name {
       font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .element {
+      height: 100%;
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      gap: 0.5rem;
+
+      span {
+        background-color: #5a5a5a;
+        color: #fff;
+
+        padding: 0.2rem 0.7rem;
+        border-radius: 4px;
+      }
     }
   }
 
