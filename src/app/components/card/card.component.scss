@@ -1,0 +1,31 @@
+.card {
+  border: 1px solid #0005;
+  height: 200px;
+  width: 340px;
+
+  border-radius: 15px;
+  padding: 1rem;
+  box-shadow: 2px 2px 10px #0005;
+
+  display: flex;
+  justify-content: space-between;
+
+  .information {
+    width: 140px;
+    word-wrap: break-word;
+
+    .name {
+      font-weight: 700;
+    }
+  }
+
+  img {
+    min-width: 150px;
+    min-height: 150px;
+    border: 1px solid #0005;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
