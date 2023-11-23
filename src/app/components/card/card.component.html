@@ -2,7 +2,7 @@
   <div *ngFor="let pokemon of pokemons" class="card">
     <div>
       <div class="information">
-        <p class="name">{{ pokemon.name }}</p>
+        <p class="name">{{ pokemon.name | titlecase }}</p>
         <div class="element">
           <span *ngFor="let t of pokemon.types">{{ t.type.name }}</span>
         </div>
